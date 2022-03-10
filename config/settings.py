@@ -23,6 +23,7 @@ INSTALLED_APPS = [
     'whitenoise.runserver_nostatic',
     'django.contrib.staticfiles',
     'django.contrib.sites',
+    'djangox2',
 
     # Third-party
     'allauth',
@@ -171,3 +172,5 @@ ACCOUNT_USERNAME_REQUIRED = False
 ACCOUNT_AUTHENTICATION_METHOD = 'email'
 ACCOUNT_EMAIL_REQUIRED = True
 ACCOUNT_UNIQUE_EMAIL = True
+
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
